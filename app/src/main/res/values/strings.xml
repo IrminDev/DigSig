@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DigSig</string>
+    <string name="main_menu_title">Digital Signature</string>
+    <string name="key_pair_generator">Key Pair Generator</string>
+    <string name="sign_document">Sign a Document</string>
+    <string name="verify_signature">Verify a Signature</string>
+    <string name="key_factory_title">Generate Key Pair (P-256 / ECDSA)</string>
+    <string name="key_factory_description">Generates an Elliptic-Curve P-256 key pair and saves it to
+        private app storage as key.priv (PKCS#8) and key.pub (X.509) in PEM format.
+        Use the export buttons to share the keys with other devices.</string>
+    <string name="generate_keypair_button">Generate Key Pair</string>
+    <string name="export_private_key">Export Private Key (key.priv)…</string>
+    <string name="export_public_key">Export Public Key (key.pub)…</string>
+    <string name="error_prefix">Error: %1$s</string>
+</resources>
