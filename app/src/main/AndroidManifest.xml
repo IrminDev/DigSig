@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DigSig">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DigSig">
@@ -24,17 +24,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".KeyFactoryActivity"
+            android:name=".view.KeyFactoryActivity"
             android:exported="false"
             android:label="@string/key_pair_generator"
             android:theme="@style/Theme.DigSig" />
         <activity
-            android:name=".SignDocumentActivity"
+            android:name=".view.SignDocumentActivity"
             android:exported="false"
             android:label="@string/sign_document"
             android:theme="@style/Theme.DigSig" />
         <activity
-            android:name=".VerifySignatureActivity"
+            android:name=".view.VerifySignatureActivity"
             android:exported="false"
             android:label="@string/verify_signature"
             android:theme="@style/Theme.DigSig" />
